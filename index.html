@@ -18,79 +18,61 @@
 
 <body>
 
-<header>
     <nav>
-    <ol>
-        <li><a href="index.html">MUDDY PAWS</a></li>
-        <!--figure out Search bar -->
+    <ul id = "left-nav">
+        <li> <img id="paw-print" src="assets/general-all-images/clipart385572.png" alt="paw-print" width = "50%"></li>
+        <li><a id="muddy-paws" href="index.html">MUDDY PAWS</a></li>
+    </ul>
+    <div id="center-nav"><input id="nav-search" type="text" placeholder="Search for product"></div>
+    <ul id="right-nav">
         <li><a href="products.html">Products</a></li>
         <li>Blog</li>
         <li>About</li>
-        <li>Cart</li>
-    </ol>
+        <div id="cart-total">
+            <li><img id="shopping-cart" src="assets/general-all-images/shopping-cart.png"></li>
+            <li>Cart</li>
+        </div>
+        
+    </ul>
     </nav>
-</header>
+
+<div id="content">
 
 <div id="above-the-fold">
-    <img id="banner" src="assets/index-images/dog-banner.jpg" alt="dog with hiking harness in the wilderness" width = "50%">
+    <div id="atf-left"><img id="banner" src="assets/index-images/dog-banner.jpg" alt="dog with hiking harness in the wilderness"></div>
+    
+    <div id="atf-right">
     <p>Find your next pawventure.</p>
-    <!--Figure out Search bar-->
+    <input type="text" placeholder="Search for product" id="body-search">
     <a href="products.html">Browse all products</a>
+    </div>
 </div> 
 
 <div id="below-the-fold">
     
     <h2>Shop by Category</h2>
 
-    <div id="cat-category">
-    <h3>Cats</h3>
     <div class="category-unit">
-    <!--icon-->
-    <p>Cat harnesses</p>
-    </div>
+        <!--icon-->
+        <p>harnesses</p>
+        </div>
+    
+    <div class="category-unit">
+        <!--icon-->
+        <p>collars</p>
+        </div>
+    
+    <div class="category-unit">
+        <!--icon-->
+        <p>attachments</p>
+        </div>
 
     <div class="category-unit">
-    <!--icon-->
-    <p>Cat collars</p>
-    </div>
-
-    <div class="category-unit">
-    <!--icon-->
-    <p>Cat attachments</p>
-    </div>
-    
-    <div class="category-unit">
-    <!--icon-->
-    <p>Cat backpacks</p>
-    </div>
-    
-    <div class="category-unit-special">
-    <!--icon-->
-    <p>See all Cat products</p>
-    </div>
-    
-    <div id="dog-category">
-    <h3>Dog</h3>
-    
-    <div class="category-unit">
-    <!--icon-->
-    <p>Dog harnesses</p>
-    </div>
-
-    <div class="category-unit">
-    <!--icon-->
-    <p>Dog collars</p>
-    </div>
-
-    <div class="category-unit">
-    <!--icon-->
-    <p>Dog attachments</p>
-    </div>
-    
-    <div class="category-unit-special">
-    <!--icon-->
-    <p>See all Dog products</p>
-    </div>
+        <!--icon-->
+        <p>backpacks</p>
+        </div>
+        
+</div>
 
 </div>
 
