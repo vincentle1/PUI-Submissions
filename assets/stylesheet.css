@@ -22,6 +22,16 @@ nav {
     justify-content: space-between;
 
 }
+
+nav a:visited, nav a:active, nav a:link{
+    color:white;
+
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
 nav ul li a {
 
     text-decoration: none;
@@ -117,7 +127,7 @@ nav ul li a:visited {
 }
 
 #atf-right {
-    margin-left: 200px;
+    margin-left: 100px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -134,7 +144,7 @@ nav ul li a:visited {
     font-size: 30px;
     border-style: hidden;
     border-bottom-style: groove;
-    width: 50%;
+    width: 60%;
 
 }
 
@@ -150,8 +160,13 @@ nav ul li a:visited {
     font-weight: bold;
 }
 
+#atf-right a:hover {
+    background-color: #5e946e;
+}
+
 h2 {
     font-weight: 900;
+    font-size: 48px;
 
 }
 
@@ -161,12 +176,35 @@ h2 {
     font-weight: bold;
 }
 
+.category-unit {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.category-unit img {
+    padding: 20px;
+    background-color: #ecd4a8;
+    width: 200px;
+    border-radius: 10px;
+
+}
+
+.category-unit p {
+    font-weight: bold;
+    font-size: 36px;
+    text-align: center;
+    
+
+}
+
 footer {
     display: flex;
     justify-content: space-between;
     border-bottom: none;
     background-color: black;
     color: white;
+    position:static;
+    width:100%;
 }
 
 footer p {
@@ -175,3 +213,16 @@ footer p {
     font-size: 20px;
 }   
 
+#footer-container {
+    display:block;
+}
+
+#footer-attribution {
+    margin: 20px 120px;
+    font-size: 20px;
+
+}
+
+#footer-attribution a:visited, a:active, a:link {
+    color: white;
+}
