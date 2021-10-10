@@ -112,91 +112,75 @@ nav ul li a:visited {
 
 /************************************************/
 
+/***************Content*****************/
 #content {
     margin: 50px 120px;
-}
-
-#banner {
-    width: 700px;
-}
-
-#above-the-fold {
     display: flex;
-    justify-content: space-between;
-    
 }
 
-#atf-right {
-    margin-left: 100px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-
-}
-
-#atf-right p {
-    font-size: 65px;
+#content h1 {
     font-weight: 900;
+    font-size: 48px;
     margin-top: 0px;
-} 
-
-#body-search {
-    font-size: 30px;
-    border-style: hidden;
-    border-bottom-style: groove;
-    width: 60%;
-
-}
-
-#atf-right a {
-    font-size: 40px;
-    color: white;
-    text-decoration: none;
-    background-color: #284330;
-    width: 50%;
-    padding: 40px 20px;
-    text-align: center;
-    border-radius: 10px;
-    font-weight: bold;
-}
-
-#atf-right a:hover {
-    background-color: #5e946e;
 }
 
 h2 {
-    font-weight: 900;
-    font-size: 48px;
-    margin-top: 10px;
-
-}
-
-#categories {
-    display: flex;
-    justify-content: space-between;
-    font-weight: bold;
-}
-
-.category-unit {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-.category-unit img {
-    padding: 20px;
-    background-color: #ecd4a8;
-    width: 200px;
-    border-radius: 10px;
-
-}
-
-.category-unit p {
-    font-weight: bold;
     font-size: 36px;
-    text-align: center;
-    
+}
+
+ul {
+    padding-left: 20px;
+}
+
+#filter-bar {
+    margin-top: 0px;
+}
+
+#filter-bar li {
+    font-size: 24px;
+    font-weight: bold;
 
 }
+
+#products {
+    margin: 100px;
+}
+
+#row1 {
+    display: flex;
+}
+
+#row2 {
+    display: flex;
+}
+
+.checked {
+    color: #c0ad00;
+    border-color: #B58D00;
+    border: 1px line;
+    
+}
+
+.product-unit img {
+    width: 240.23px;
+    height: 196px;
+    border-radius: 10px;
+}
+
+.product-unit {
+    margin: 20px;
+    font-size: 24px;
+    
+}
+
+.name {
+    font-weight: bold;
+}
+
+
+
+/************************************************/
+
 
 /** Footer******************************/
 footer {
@@ -228,4 +212,4 @@ footer p {
 #footer-attribution a:visited, a:active, a:link {
     color: white;
 }
-/*********Footer**************/
+/***********************/
