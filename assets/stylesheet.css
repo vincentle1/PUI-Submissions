@@ -107,7 +107,7 @@ nav ul li a:visited {
 }
 
 #banner {
-    width: 645px;
+    width: 700px;
 }
 
 #above-the-fold {
@@ -117,7 +117,7 @@ nav ul li a:visited {
 }
 
 #atf-right {
-    margin-left: 150px;
+    margin-left: 200px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -138,20 +138,40 @@ nav ul li a:visited {
 
 }
 
-#atf-right a{
+#atf-right a {
     font-size: 40px;
     color: white;
     text-decoration: none;
     background-color: #284330;
     width: 50%;
-    padding: 50px 20px;
+    padding: 40px 20px;
     text-align: center;
     border-radius: 10px;
     font-weight: bold;
 }
 
-h2{
+h2 {
     font-weight: 900;
 
 }
+
+#categories {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: none;
+    background-color: black;
+    color: white;
+}
+
+footer p {
+    margin: 20px 120px;
+    font-weight: bold;
+    font-size: 20px;
+}   
 
